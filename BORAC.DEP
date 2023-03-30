@@ -1,0 +1,56 @@
+[Version]
+Version=1.0.0.11
+
+[BORAC.exe <0009>]
+Dest=$(AppPath)
+Date=9/21/2011
+Time=19:21
+Version=1.0.0.11
+CABFilename=BORAC.CAB
+CABINFFile=BORAC.INF
+Uses1=msvbvm60.dll
+Uses2=oleaut32.dll
+Uses3=olepro32.dll
+Uses4=asycfilt.dll
+Uses5=stdole2.tlb
+Uses6=COMCAT.DLL
+Uses7=msado25.tlb
+Uses8=MSBIND.DLL
+Uses9=MSDERUN.DLL
+Uses10=MSDBRPTR.DLL
+Uses11=DAO350.DLL
+Uses12=COMDLG32.OCX
+Uses13=MSDATGRD.OCX
+Uses14=TABCTL32.OCX
+Uses15=MSCOMCTL.OCX
+Uses16=MSADODC.OCX
+Uses17=MSDATLST.OCX
+Uses18=MSCOMCT2.OCX
+Uses19=MSCOMM32.OCX
+Uses20=DBGRID32.OCX
+Uses21=MSDATREP.OCX
+Uses22=MSINET.OCX
+Uses23=ieframe.dll
+Uses24=COMCT232.OCX
+Uses25=COMCTL32.OCX
+Uses26=COMCT332.OCX
+Uses27=FM20.DLL
+Uses28=dbase_bike.mdb
+
+[msado25.tlb <0009>]
+Dest=$(WinSysPath)
+Date=10/16/2010
+Time=09:22
+Version=6.1.7600.16688
+
+[ieframe.dll <0009>]
+Dest=$(WinSysPath)
+Date=4/23/2011
+Time=05:32
+Version=9.0.8112.16430
+
+[FM20.DLL <0009>]
+Dest=$(WinSysPath)
+Date=2/21/2010
+Time=06:20
+Version=14.0.4747.1000
